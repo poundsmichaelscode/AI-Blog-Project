@@ -19,13 +19,18 @@ import blog_messi_1 from './messi.jpg'
 import blog_lifestyle from './lifestyle.jpg'
 import blog_startup from  './startup.jpg'
 
+import blog_pic_5 from './blopic2.webp'
+
+import blog_pic_6 from './blopic4.webp'
 
 export const assets = {
+     blog_pic_5,
      blog_lifestyle,
      Ai_icon,
      logo,
      bg_gredient,
      blog_startup,
+     blog_pic_6,
 
      arrow ,
 blog_pic_4,
@@ -85,7 +90,7 @@ export const blog_data =[
 
 {
 
-     "_id": "3",
+     "_id": "4",
 
 
      "title": "Life style in race for interMiama lead Goal scorer in Usa",
@@ -104,5 +109,121 @@ export const blog_data =[
      
      
 
+},
+
+
+
+{
+
+     "_id": "5",
+
+
+     "title": "AI takin t world wat are your takes in te Job indusrty do you fel treatenmd",
+     "description": "<h1>Mseii Storming Mls Leauge </h1><p> Messi is the best payer in mlz  now hs s doin a wrw wxw wnw w w wbwbwiw job and a all is well wit wywiaoa </p><h2>what do you think about Messi</h2> <p>messsi godd and a killer in the leauge</p> ",
+     "category": "StartUp",
+
+     "image":  blog_pic_5,
+
+     " CreatedAt ": "2025 -07-07.304z",
+     "updatedAt": "2025-08-07.2300z",
+     "__V": 0,
+     "ispublished":true,
+     "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
+
+
+
+
+    
+},
+
+
+{
+
+     "_id": "6",
+
+
+     "title": "AI takin t world wat are your takes in te Job indusrty do you fel treatenmd",
+     "description": "<h1>Mseii Storming Mls Leauge </h1><p> Messi is the best payer in mlz  now hs s doin a wrw wxw wnw w w wbwbwiw job and a all is well wit wywiaoa </p><h2>what do you think about Messi</h2> <p>messsi godd and a killer in the leauge</p> ",
+     "category": "StartUp",
+
+     "image":  blog_pic_6,
+
+     " CreatedAt ": "2025 -07-07.304z",
+     "updatedAt": "2025-08-07.2300z",
+     "__V": 0,
+     "ispublished":true,
+     "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
+
+
+
+
+    
+},
+
+
+
+{
+
+     "_id": "7",
+
+
+     "title": "AI takin t world wat are your takes in te Job indusrty do you fel treatenmd",
+     "description": "<h1>Mseii Storming Mls Leauge </h1><p> Messi is the best payer in mlz  now hs s doin a wrw wxw wnw w w wbwbwiw job and a all is well wit wywiaoa </p><h2>what do you think about Messi</h2> <p>messsi godd and a killer in the leauge</p> ",
+     "category": "StartUp",
+
+     "image":  blog_pic_5,
+
+     " CreatedAt ": "2025 -07-07.304z",
+     "updatedAt": "2025-08-07.2300z",
+     "__V": 0,
+     "ispublished":true,
+     "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
+
+
+
+
+    
+},
+
+
+{
+     "_id": "8",
+
+     "title": "Messi in race for interMiama lead Goal scorer in Usa",
+     "description": "<h1>Mseii Storming Mls Leauge </h1><p> Messi is the best payer in mlz  now hs s doin a wrw wxw wnw w w wbwbwiw job and a all is well wit wywiaoa </p><h2>what do you think about Messi</h2> <p>messsi godd and a killer in the leauge</p> ",
+     "category": "Sport",
+     "image":blog_messi_1,
+     " CreatedAt ": "2025 -07-07.304z",
+     "updatedAt": "2025-08-07.2300z",
+     "__V": 0,
+     "ispublished":true,
+     "subTitle": "Mesill wins it all IN Major Leauge Scoccer"
+
+},
+
+
+{
+
+     "_id": "5",
+
+
+     "title": "AI takin t world wat are your takes in te Job indusrty do you fel treatenmd",
+     "description": "<h1>Mseii Storming Mls Leauge </h1><p> Messi is the best payer in mlz  now hs s doin a wrw wxw wnw w w wbwbwiw job and a all is well wit wywiaoa </p><h2>what do you think about Messi</h2> <p>messsi godd and a killer in the leauge</p> ",
+     "category": "StartUp",
+
+     "image":  blog_pic_5,
+
+     " CreatedAt ": "2025 -07-07.304z",
+     "updatedAt": "2025-08-07.2300z",
+     "__V": 0,
+     "ispublished":true,
+     "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
+
+
+
+
+    
 }
+
+
 ]

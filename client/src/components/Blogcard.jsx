@@ -10,7 +10,7 @@ const navigate = useNavigate
 
  
   return (
-    <div onClick= {()=> navigate(`/blog/${_id}`)} className='w-full rounded-lg overflow-hidden shadow hover:scale-103 hover:shadow-primary/25 duration-300 cursor-pointer'>
+    <div onClick= {()=> navigate(`/blog/${_id}`)} className='w-full rounded-lg overflow-hidden shadow hover:scale-103 hover:shadow-primary/25 duration-300 cursor-pointer mt-10'>
 
 
   <img src={image} alt="blogimage" className = 'aspect-video' />

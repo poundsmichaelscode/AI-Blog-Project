@@ -32,7 +32,7 @@ const Header = () => {
 
 </div>
   
-<img src={assets.bg_gredient} alt='bg' className='absolute -top-50 -z-1 opacity-30' />
+<img src={assets.bg_gredient} alt='bg' className='absolute -top-50 -z-1 opacity-4' />
         
     </div>
   )
