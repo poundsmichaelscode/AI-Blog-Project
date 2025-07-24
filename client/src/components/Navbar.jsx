@@ -13,7 +13,7 @@ const navigate = useNavigate();
 
   return (
     <div className = 'flex justify-between items-center py-5 mx-8 sm:mx-20 xl:mx-32 cursor-pointer '> 
-    <img onClick={()=>navigate('/')} src={assets.logo} alt="logo" className = 'w-32 sm:w-44' />
+    <img onClick={()=>navigate('/Blog')} src={assets.logo} alt="logo" className = 'w-32 sm:w-44' />
 
     <button onClick={()=>navigate('/admin')} className ='flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-8 py-2' >Login
       <img src={assets.arrow} className='w-3' alt="arrow" />
