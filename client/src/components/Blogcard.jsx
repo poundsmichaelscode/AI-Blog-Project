@@ -6,7 +6,7 @@ const Blogcard = ({blog}) => {
     const{title, description, category, image, _id} =  blog;
 
 
-const navigate = useNavigate
+const navigate = useNavigate()
 
  
   return (

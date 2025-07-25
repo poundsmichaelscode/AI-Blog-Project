@@ -2,14 +2,15 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Pages/Home'
 import Blog from './components/Pages/Blog'
+
 const App = () => {
   return (
     <div>
 <Routes>
   
   < Route path='/' element={<Home/>}/>
-  < Route path='/Blog/:id' element={<Blog/>}/>
-    {/* < Route path='/admin' element={<Admin/>}/> */}
+  < Route path='/blog/:id' element={<Blog/>}/>
+
 
 </Routes>
 

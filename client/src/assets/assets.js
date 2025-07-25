@@ -69,7 +69,7 @@ export const blog_data =[
 
 
 {
-     "_id": "2",
+     "_id": "29",
 
      "title": "Life style in race for interMiama lead Goal scorer in Usa",
      "description": "<h1>Mseii Storming Mls Leauge </h1><p> Messi is the best payer in mlz  now hs s doin a wrw wxw wnw w w wbwbwiw job and a all is well wit wywiaoa </p><h2>what do you think about Messi</h2> <p>messsi godd and a killer in the leauge</p> ",

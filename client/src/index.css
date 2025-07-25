@@ -15,3 +15,29 @@
 @theme {
   --color-primary: #5044E5;
 }
+
+
+.use-text { font-size:15px;}
+
+.use-text p{margin-bottom: 16px; color:blueviolet}
+
+.use-text h1 {font-size:36px;font-weight:700; color:aquamarine !important; margin: 32px 0;}
+
+.use-text h2{ font-size:22px; font-weight:700;color: #252525 !important;margin: 24px 0;}
+
+.use-text h3 {font-size:18px;font-weight: 700; color:#333333  !important; margin:20px 0;}
+.use-text h4 {font-size: 16px; font-weight: 400; color:#444444 !important; margin:16px 0;}
+
+
+.use-text h5 { font-size:12px; font-weight: 400; color:#555555 !important; margin: 12px 0;}
+
+.use-text h6 { font-size:12px; font-weight: 400; color:#666666 !important; margin: 8px 0;}
+
+.use-text strong {font-weight: 700;}
+
+.use-text ol {margin-left: 30px; list-style: decimal;}
+.use-text ul {margin-left: 30px; list-style: disc;}
+
+.use-text li {margin-bottom: 8px; ;}
+
+.use-text a{ color:#29f006}
