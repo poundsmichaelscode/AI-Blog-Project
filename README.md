@@ -3,7 +3,7 @@
 
 An intelligent, full-stack blog platform powered by **Gemini AI**, built with the **MERN Stack** (MongoDB, Express.js, React.js, Node.js) and styled using **Tailwind CSS**. This platform allows users to generate blog content with the help of AI, manage their posts, and explore AI-generated articles in an interactive, responsive environment.
 
-> 🌐 [Live Demo](https://vercel.com/olayenikan-michael-s-projects/ai-blog-project/JBXM6f3Ky3w9kdSXbLaodJFD79XE)
+> 🌐 [Live Demo](https://ai-blog-project-e3v2.vercel.app/)
 
 
 
