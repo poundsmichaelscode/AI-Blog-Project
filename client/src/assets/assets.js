@@ -23,7 +23,16 @@ import blog_pic_5 from './blopic2.webp'
 
 import blog_pic_6 from './blopic4.webp'
 
+import fbicon from './facebookicon.jpg'
+import youtubeicon from './youtubeicon.png'
+import instgramicon from './instagramicon.jpg'
+import Xicon from './cicon.png'
+
 export const assets = {
+     Xicon,
+     instgramicon ,
+      youtubeicon,
+     fbicon ,
      blog_pic_5,
      blog_lifestyle,
      Ai_icon,
