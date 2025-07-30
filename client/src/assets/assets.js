@@ -28,7 +28,17 @@ import youtubeicon from './youtubeicon.png'
 import instgramicon from './instagramicon.jpg'
 import Xicon from './cicon.png'
 
+import homeicon from './house-icon.webp'
+
+import dashboardicon from './download-icon.svg'
+import drafticons from './download-drafts-icon.svg'
+import commetsicon from './download-cooment-icon.svg'
+
 export const assets = {
+     commetsicon,
+     drafticons,
+     dashboardicon,
+     homeicon,
      Xicon,
      instgramicon ,
       youtubeicon,

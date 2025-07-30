@@ -4,6 +4,7 @@ import { assets, blog_data, comments_data } from '../../assets/assets'
 import Navbar from '../Navbar';
 import Moment from 'moment';
 import Footer from '../Footer';
+import Loader from '../Loader';
 
 
 const Blog = () => {
@@ -137,7 +138,7 @@ const addComment = async (e)=>{
       
     
   
-  ) : <div>loading....</div>
+  ) : <Loader/>
 }
 
 
