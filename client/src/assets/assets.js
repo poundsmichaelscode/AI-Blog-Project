@@ -33,8 +33,12 @@ import homeicon from './house-icon.webp'
 import dashboardicon from './download-icon.svg'
 import drafticons from './download-drafts-icon.svg'
 import commetsicon from './download-cooment-icon.svg'
+import delete_icon from './delete (1).png'
+import tick_icon from './tick-icon-symbol-green-checkmark-isolated-vector-24026516.jpg'
 
 export const assets = {
+     delete_icon,
+     tick_icon,
      commetsicon,
      drafticons,
      dashboardicon,
@@ -235,7 +239,7 @@ export const blog_data =[
      " CreatedAt ": "2025 -07-07.304z",
      "updatedAt": "2025-08-07.2300z",
      "__V": 0,
-     "ispublished":true,
+     "ispublished":false,
      "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
 
 
@@ -277,7 +281,7 @@ export const blog_data =[
      " CreatedAt ": "2025 -07-07.304z",
      "updatedAt": "2025-08-07.2300z",
      "__V": 0,
-     "ispublished":true,
+     "ispublished":false,
      "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
 
 
@@ -348,7 +352,7 @@ export const blog_data =[
      " CreatedAt ": "2025 -07-07.304z",
      "updatedAt": "2025-08-07.2300z",
      "__V": 0,
-     "ispublished":true,
+     "ispublished":false,
      "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
 
 
@@ -373,7 +377,7 @@ export const blog_data =[
      " CreatedAt ": "2025 -07-07.304z",
      "updatedAt": "2025-08-07.2300z",
      "__V": 0,
-     "ispublished":true,
+     "ispublished":false,
      "subTitle": "Mesill wins it all IN Major Leauge Scoccer",
 
 
@@ -434,7 +438,7 @@ export const comments_data =[
           "blog": blog_data [0],
           "name": "Michael Scott",
           "content": "This is my new comment",
-          "isApproved":false,
+          "isApproved":true,
           "createdAT":"2020-30-30T09:39:06.918",
           "updatedAT": "2025-04-30-20:30:0692z9",
           "__V":0
@@ -468,6 +472,30 @@ export const comments_data =[
 
           "_id": "95",
           "blog": blog_data [4],
+          "name": "Michael olayenikan",
+          "content": "cool post btp",
+          "isApproved":true,
+          "createdAT":"2020-30-30T09:39:06.918",
+          "updatedAT": "2025-04-30-20:30:0692z9",
+          "__V":0
+     },
+
+        {
+
+          "_id": "909",
+          "blog": blog_data [6],
+          "name": "Michael loase",
+          "content": "cool post btp",
+          "isApproved":true,
+          "createdAT":"2020-30-30T09:39:06.918",
+          "updatedAT": "2025-04-30-20:30:0692z9",
+          "__V":0
+     },
+
+        {
+
+          "_id": "915",
+          "blog": blog_data [8],
           "name": "Michael olayenikan",
           "content": "cool post btp",
           "isApproved":false,

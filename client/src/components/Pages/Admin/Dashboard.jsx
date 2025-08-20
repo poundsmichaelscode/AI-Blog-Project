@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { assets, dashboard_data } from '../../../assets/assets'
+import BlogTableitems from './Blogtableitems'
 
 const Dashboard = () => {
 
@@ -93,6 +94,70 @@ fetchDashboard()
 
   </div>
 </div>
+</div>
+
+
+<div>
+
+<div   className='flex items-center gap-3 m-4 text-gray-600'>
+
+  <img src={assets.dashboardicon} alt="" />
+
+  <p>Latest Post</p>
+
+
+</div>
+
+
+<div className='relative max-w-4xl overflow-x-auto shadow rounded-lg scrollbar-hide bg-white'>
+
+<table className='w-full text-sm text-gray-500'>
+  <thead className='text-xs text-gray-600 text-left uppercase'>
+
+<tr>
+
+
+  <th scope = 'col' className='px-2 py-4 xl:px-6'>
+
+#
+  </th>
+
+   <th scope = 'col' className='px-2 py-4'>
+
+Blog Title
+  </th>
+
+   <th scope = 'col' className='px-2 py-4 max-sm:hidden'>
+Date
+  </th>
+
+   <th scope = 'col' className='px-2 py-4'>
+
+Status
+  </th>
+
+   <th scope = 'col' className='px-2 py-4 px-2 py-4 max-sm:hidden'>
+
+Action
+  </th>
+</tr>
+
+  </thead>
+
+  <tbody>
+
+{DashboardData.recentBlogs.map((blog, index )=>{
+
+return <BlogTableitems key= {blog._id} blog ={blog}
+fetchBlogs = {fetchDashboard}  index = {index + 1}/>
+})}
+
+  </tbody>
+</table>
+
+</div>
+
+
 </div>
 </div>
     
