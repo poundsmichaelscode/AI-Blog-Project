@@ -27,7 +27,7 @@ import fbicon from './facebookicon.jpg'
 import youtubeicon from './youtubeicon.png'
 import instgramicon from './instagramicon.jpg'
 import Xicon from './cicon.png'
-
+import upload_area from './icons8-upload-64.png'
 import homeicon from './house-icon.webp'
 
 import dashboardicon from './download-icon.svg'
@@ -54,7 +54,7 @@ export const assets = {
      bg_gredient,
      blog_startup,
      blog_pic_6,
-
+upload_area,
      arrow ,
 blog_pic_4,
 blog_pic_3,
